@@ -18,9 +18,6 @@ public class streamApi {
 		names.add("Alex");
 		names.add("Frank");
 		
-		//for(String name:names) {
-			//System.out.println(name);
-		//}
 		List<String> gift=names.stream().filter(fnames->fnames.startsWith("A")).collect(Collectors.toList());
 
 		
